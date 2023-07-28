@@ -21,10 +21,30 @@ code {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 4%;
-  padding-bottom: 3%;
+  padding-bottom: 4%;
   padding-top: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
 }
 
 .movie{
   min-width: 100%;
+}
+
+.card .card-image img {
+  width: 315px;
+    height: 534px;
+}
+
+.placeForPreloader{
+  text-align: center;
+    padding: 19%;
+}
+
+#root > main > div.row > div {
+  width: 100%;
+}
+
+.card{
+  height: 685px;
 }
