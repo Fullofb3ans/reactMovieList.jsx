@@ -41,10 +41,32 @@ code {
     padding: 19%;
 }
 
-#root > main > div.row > div {
-  width: 100%;
+.searchPlace {
+  display: flex;
+    padding-right: 26%;
+    padding-top: 1%;
+    margin-left: 28%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
 }
 
 .card{
   height: 685px;
+}
+
+.radios{
+  text-align: center;
+}
+
+label {
+  padding-right: 1%;
+}
+
+.empty{
+  text-align: center;
+  padding-top: 2%;
 }
