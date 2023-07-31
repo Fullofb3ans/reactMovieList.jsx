@@ -14,16 +14,20 @@ class Main extends React.Component {
 
   componentDidMount() {
     this.setState({ loading: true });
-    fetch(`http://www.omdbapi.com/?s=evangelion&apikey=${API_KEY}`)
+    fetch(`https://www.omdbapi.com/?s=evangelion&apikey=${API_KEY}`)
       .then((response) => response.json())
-      .then((data) => this.setState({ cards: data.Search, loading: false }));
+      .then((data) => this.setState({ cards: data.Search, loading: false }))
+      .catch((err) => {
+        console.error(err);
+        this.setState({ loading: false });
+      });
   }
 
   searchUpdate = (search) => {
     this.setState({ cards: [], loading: true });
     try {
       fetch(
-        `http://www.omdbapi.com/?s=${search}&type=${this.state.filter}&apikey=${API_KEY}`
+        `https://www.omdbapi.com/?s=${search}&type=${this.state.filter}&apikey=${API_KEY}`
       )
         .then((response) => response.json())
         .then((data) =>
