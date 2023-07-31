@@ -2,7 +2,7 @@
   "name": "films",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https:/Fullofb3ans.github.io/films", 
+  "homepage": "https://fullofb3ans.github.io/reactMovieList.jsx", 
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
