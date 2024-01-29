@@ -21,44 +21,44 @@ code {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 4%;
-  padding-bottom: 4%;
+  padding-bottom: 20%;
   padding-top: 1%;
   padding-left: 1%;
   padding-right: 1%;
 }
 
-.movie{
+.movie {
   min-width: 100%;
 }
 
 .card .card-image img {
   width: 315px;
-    height: 534px;
+  height: 534px;
 }
 
-.placeForPreloader{
+.placeForPreloader {
   text-align: center;
-    padding: 19%;
+  padding: 19%;
 }
 
 .searchPlace {
   display: flex;
-    padding-right: 26%;
-    padding-top: 1%;
-    margin-left: 28%;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: stretch;
-    justify-content: center;
-    align-items: center;
-    gap: 2%;
+  padding-right: 26%;
+  padding-top: 1%;
+  margin-left: 28%;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: stretch;
+  justify-content: center;
+  align-items: center;
+  gap: 2%;
 }
 
-.card{
+.card {
   height: 685px;
 }
 
-.radios{
+.radios {
   text-align: center;
 }
 
@@ -66,7 +66,7 @@ label {
   padding-right: 1%;
 }
 
-.empty{
+.empty {
   text-align: center;
   padding-top: 2%;
 }
